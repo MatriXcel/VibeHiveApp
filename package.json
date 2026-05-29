@@ -1,0 +1,35 @@
+{
+  "name": "vibehive-ios-project",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo run:ios",
+    "android": "expo run:android",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@gorhom/bottom-sheet": "^5.1.6",
+    "@react-native-community/slider": "4.5.5",
+    "expo": "^52.0.0",
+    "expo-build-properties": "~0.13.3",
+    "expo-dev-client": "~5.0.20",
+    "expo-haptics": "~14.0.1",
+    "expo-router": "~4.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-clusterer": "^3.0.0",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-maps": "^1.23.12",
+    "react-native-reanimated": "^3.18.0",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "dotenv": "^17.4.2",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
